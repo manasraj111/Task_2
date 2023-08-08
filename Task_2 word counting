@@ -1,0 +1,21 @@
+# Task_2 Word counter (Using java)
+
+
+import java.util.Scanner;
+
+public class Question_2
+{
+   public static void main(String[] args)
+   {
+      String str;
+      int totalWords;
+      Scanner s = new Scanner(System.in);
+      
+      System.out.print("Enter the String: ");
+      str = s.nextLine();
+      
+      String words[] = str.split(" ");
+      totalWords = words.length;
+      System.out.println("\nTotal Number of Words = " +totalWords);
+   }
+}
